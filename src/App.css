@@ -1,0 +1,57 @@
+.info-box {
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.color-popup {
+  position: absolute;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 8px;
+  display: flex;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: 1px solid #6663;
+}
+.swatch:hover {
+  outline-color: #000a;
+}
+
+.comment-box {
+  position: absolute;
+  z-index: 9999;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  width: 200px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.comment-box textarea {
+  width: 100%;
+  height: 60px;
+  resize: none;
+  font-size: 14px;
+}
+.comment-box button {
+  margin-top: 6px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
