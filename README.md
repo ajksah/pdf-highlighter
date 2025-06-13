@@ -1,12 +1,54 @@
-# React + Vite
+# 📄 PDF Annotator (React + PDF.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based PDF annotation tool that lets users:
 
-Currently, two official plugins are available:
+- 🔍 Select and highlight text
+- 💬 Add comments to specific highlights
+- 🎨 Choose highlight colors (red, blue, yellow)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Double-click to highlight or add comment**
+- **Attach floating 💬 comments**
+- **Multiple color support for highlighting**
+
+---
+
+## 📸 Screenshots
+
+> Example:
+> - Highlight popup
+![image](https://github.com/user-attachments/assets/0493abce-30e2-45c5-b238-daaee5f86655)
+
+> - Comment box
+![image](https://github.com/user-attachments/assets/45bd80ae-0512-47d3-8c0e-099b1088fcbe)
+
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/thasneem9/pdf-highlighter.git
+cd pdf-highlighter
+npm install
+npm run dev
+```
+## tips to avoid errors:
+- make sure your public folder contains pdf.worker.min.js [if note go to nodemodules > pdfjs > copy the file content of 'pdf.worker.min.js']
+- make sure static folder contains a sample.pdf file!
+- Check out developer console. I have added extensive console logs to identify key problems.
+## 🧪 Libraries / tools used:
+
+- [React](https://reactjs.org/)
+- [`react-pdf`](https://github.com/wojtekmaj/react-pdf) for rendering PDFs
+
+
+---
+
+## 🤝 Contributions
+
+Feel free to **fork** and enhance this project.  
+**Pull Requests are welcome!**
+
+---
